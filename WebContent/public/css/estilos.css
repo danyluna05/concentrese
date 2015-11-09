@@ -1,0 +1,132 @@
+#titulo-principal{	
+	margin: 1em 0 0.5em 0;
+	color: #F79F81;
+	text-align: center;
+	font-weight: normal;
+	font-family: 'Ultra', sans-serif;   
+	font-size: 36px;
+	line-height: 42px;
+	text-transform: uppercase;
+	text-shadow: 0 2px white, 0 3px #777;
+
+}
+
+
+.cart{
+	border-radius:1em;
+	border: 3px solid white;
+	background-color:#01DFD7;
+	cursor: pointer;
+	display: inline-block;
+	height: 110px;
+	width: 110px;
+	margin: .3em;
+	overflow: hidden;
+	vertical-align: top;
+}
+
+
+.divInicio{
+	border-radius:1em;
+	border: 3px solid white;
+	background-color:#D8D8D8;
+	cursor: pointer;
+	display: inline-block;
+	height: 110px;
+	width: 110px;
+	margin: .3em;
+	overflow: hidden;
+	vertical-align: top;
+}
+
+#tablero{
+	position:absolute;
+	top:150px;
+	left:350px;
+	width: 700px;
+	margin: 10px auto;
+	
+}
+
+
+#opciones{
+	position:absolute;
+	top:110px;
+	left:1020px;
+	width: 300px;
+	margin: 100px auto;
+	float: right;
+		
+}
+
+.cls-btn {
+	font-size: 18px;
+	color: #ffffff;
+	text-decoration: none;
+	background: #2E9AFE;
+	padding: 5px 10px;
+	border-radius: .5em;
+	margin: .3em;
+	vertical-align: top;
+}
+
+.cls-btn:hover {
+ 	background: #999;
+}
+
+#puntaje{
+    position: absolute;
+    top: 350px;
+    left: 170px;
+    border-radius: 4em;
+    border: 3px solid #088A4B;
+    height: 130px;
+    width: 130px;
+    float: left;
+    
+}
+
+
+
+.div-interno{
+    border-radius: 4em;
+    border: 3px solid #E1F5A9;
+    height: 122px;
+    width: 122px;
+    margin-left: 1px;
+    margin-top: 1px;
+}
+
+.titulo-puntaje{
+	position: absolute;
+	top: 290px;
+    left: 190px;
+    width: 100px;
+    height: 50px;
+}
+
+#titulo-puntaje{	
+	margin: 1em 0 0.5em 0;
+	color: #2E9AFE;
+	font-weight: normal;
+	font-family: 'Ultra', sans-serif;   
+	font-size: 20px;
+	line-height: 42px;
+	text-transform: uppercase;
+	text-shadow: 0 2px #495454, 0 3px #777;
+
+}
+
+#puntos{
+	position: absolute;
+    left: 40px;
+    top: 40px;
+    color: #08298A;
+    color: #08298A;
+    font-weight: normal;
+    font-family: 'Ultra', sans-serif;
+    font-size: 60px;
+    line-height: 42px;
+    text-transform: uppercase;
+    text-shadow: 0 2px #495454, 0 3px #777;
+}
