@@ -4,14 +4,7 @@ var score=0;
 var audioElement;
 
 $(document).ready(function() {
-	 $('#mydiv').share({
-	        networks: ['facebook','pinterest','googleplus'],
-	        orientation: 'vertical',
-	        title:'Concentrese',
-	        urlToShare: 'www.pruebaConcentrese.com',
-	        affix: 'right center'
-	});
-	
+	compartirJuego();	
 	$('#id-reiniciar').click(reiniciar);	
 	asignarUbicacionCartas();
 	$("#tablero div").click(abrirImg);
@@ -123,4 +116,14 @@ function reiniciar(){
 function activarAudio(){
 	    $.get();
         audioElement.play();      
+}
+
+function compartirJuego(){
+	 $('#mydiv').share({
+	        networks: ['facebook','pinterest','googleplus'],
+	        orientation: 'vertical',
+	        title:'Concentrese',
+	        urlToShare: 'www.pruebaConcentrese.com',
+	        affix: 'right center'
+	});
 }
