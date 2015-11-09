@@ -78,16 +78,15 @@ function abrirImg(){
        }else{
     	  imgActual = $(imagenSeleccionada);
     	  if(imgAbierta.attr('src')!=imgActual.attr('src')){ 
-    		  setTimeout(function() {
-    			  $(imgAbierta).slideUp('fast');
-    	          $(imgActual).slideUp('fast');
-    	          var divAbierto=$(imgAbierta).closest('div');
-    	          $(divAbierto).attr('class','divInicio');
-    	          $(divAbierto).bind("click", abrirImg);
-    	          $(div).attr('class','divInicio');
-    	          $(div).bind("click", abrirImg);
-    	          imgAbierta="";
-    	          },600); 
+    		  $(imgAbierta).slideUp('fast');
+    	      $(imgActual).slideUp('fast');
+    	      var divAbierto=$(imgAbierta).closest('div');
+    	      $(divAbierto).attr('class','divInicio');
+    	      $(divAbierto).bind("click", abrirImg);
+    	      $(div).attr('class','divInicio');
+    	      $(div).bind("click", abrirImg);
+    	      imgAbierta="";
+    	       
     		  audioElement.setAttribute('src', 'audio/perdedor.mp3');
     		  activarAudio();
     	  }else{
